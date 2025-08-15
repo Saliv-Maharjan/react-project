@@ -1,98 +1,250 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Admin Side -> Admin Layout */
-.admin-header{
-    width: 100%;
-    height: 100px;
-    background-color: #2A9DF4;
-    color: #fff;
+.admin-header {
+  width: 100%;
+  height: 100px;
+  background-color: #2a9df4;
+  color: #fff;
 }
 
-.admin-container{
-    width: 100%;
-    min-height: 80vh;
-    display: flex;
+.admin-container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
 }
 
-.admin-sidebar{
-    width: 350px;
-    min-height: 80vh;
-    background-color: #F8F8F8;
-    color: #000;
+.admin-sidebar {
+  width: 350px;
+  min-height: 80vh;
+  background-color: #f8f8f8;
+  color: #000;
 }
 
-.admin-content{
-    width: 100%;
-    min-height: 80vh;
+.admin-content {
+  width: 100%;
+  min-height: 80vh;
+  padding: 40px;
 }
 
-.admin-footer{
-    width: 100%;
-    height: 100px;
-    background-color: #000;
-    color: #fff;
+.admin-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
 }
 
 /* Admin Side -> Admin Layout -> Header */
 
-.admin-header-container{
-    height: 100%;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.admin-header-container {
+  height: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.admin-header-left{
-    font-size: 20px;
-    font-weight: 600;
-    font-size:28px;
+.admin-header-left {
+  font-size: 20px;
+  font-weight: 600;
+  font-size: 28px;
 }
 
-.admin-header-right button{
-    padding: 10px 20px;
-    background-color: #fff;
-    border: 1px solid #fff;
-    color: #2A9DF4;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
+.admin-header-right button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #2a9df4;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* Admin Side -> Admin Layout -> Footer */
 
-.admin-footer-container{
-    height: 100%;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.admin-footer-container {
+  height: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Admin Side -> Admin Layout -> Sidebar */
 
-.admin-sidebar-container{
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
+.admin-sidebar-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
 }
 
-.admin-sidebar-container ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.admin-sidebar-container a {
+  text-decoration: none;
 }
 
-.admin-sidebar-container ul li{
-    background-color: #2A9DF4;
-    color: #fff;
-    font-weight: 600;
-    padding: 20px 10px;
+.admin-sidebar-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-sidebar-container ul li {
+  background-color: #2a9df4;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 10px;
+}
+
+/* Admin Side -> Admin Layout -> Login */
+
+.admin-login-container {
+  width: 100%;
+}
+
+.admin-login-header {
+  width: 100%;
+  height: 100px;
+  background-color: #2a9df4;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.admin-login-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.admin-login-section {
+  padding-top: 60px;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-login-section h2 {
+  margin-bottom: 20px;
+}
+
+.admin-login-section .admin-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-login-form .admin-login-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login-form .admin-login-fields input {
+  width: 320px;
+  height: 42px;
+  padding: 0px 5px;
+  outline: none;
+}
+
+.admin-login-form .admin-login-fields .admin-login-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #2a9df4;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+
+/* Admin Side -> Admin Layout -> Dashboard */
+
+.dashboard-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #2a9df4;
+}
+
+.dashboard-text {
+  font-size: 1.2rem;
+}
+
+/* Admin Side -> Admin Layout -> Tables */
+
+.table-headding {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.table-headding h2 {
+  color: #2a9df4;
+}
+
+.table-headding button {
+  padding: 12px 32px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.table-box table {
+  width: 100%;
+}
+
+.table-box th {
+  border: solid #2a9df4;
+  background-color: #2a9df4;
+  color: #fff;
+  padding: 12px 6px;
+  font-size: 16px;
+}
+
+.table-box td {
+  border: solid #fff;
+  padding: 12px 6px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  text-align: center;
+}
+
+.table-box .table-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.table-box .table-btns .edit-btn {
+  padding: 12px 32px;
+  background-color: yellow;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.table-box .table-btns .del-btn {
+  padding: 4px 32px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
 }
