@@ -1,10 +1,14 @@
+import { NavLink } from "react-router";
+
 const Users = () => {
   return (
     <>
       <div class="table-container">
         <div className="table-headding">
           <h2>USER TABLE</h2>
-          <button>ADD</button>
+          <NavLink to={`/users/add`}>
+            <button>ADD</button>
+          </NavLink>
         </div>
         <div className="table-box">
           <table>
@@ -26,7 +30,9 @@ const Users = () => {
                 <td>+977 9866445340</td>
                 <td>Admin</td>
                 <td className="table-btns">
-                  <button className="edit-btn">EDIT</button>
+                  <NavLink to={`/users/edit`}>
+                    <button className="edit-btn">EDIT</button>
+                  </NavLink>
                   <button className="del-btn">DELETE</button>
                 </td>
               </tr>
