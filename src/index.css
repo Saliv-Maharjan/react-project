@@ -250,7 +250,36 @@
   font-size: 14px;
 }
 
-/* Admin Side -> Admin Layout -> Form */
+.table-number-section {
+  margin-top: 22px;
+}
+
+.table-number-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.table-option {
+  background-color: #2a9df4;
+  color: #fff;
+  padding: 5px 16px;
+  margin: 0px 6px;
+  cursor: pointer;
+}
+
+.table-numbers {
+  border: solid #2a9df4;
+  padding: 5px 12px;
+  margin: 0px 6px;
+  cursor: pointer;
+}
+
+.table-numbers.active {
+  background-color: #2a9df4;
+  color: #fff;
+}
+/* Admin Side -> Admin Layout -> UserForm */
 
 .user-form-container {
   display: flex;
@@ -275,6 +304,7 @@
   display: flex;
   flex-direction: column;
   width: 40%;
+  gap: 12px;
 }
 
 .user-form-field .user-form-input {
@@ -284,6 +314,51 @@
 }
 
 .user-form-field .user-form-btn {
+  width: 100%;
+  height: 38px;
+  border: none;
+  background-color: #2a9df4;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Admin Side -> Admin Layout -> ProductForm */
+
+.product-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.product-form-container .product-form-title {
+  color: #2a9df4;
+}
+
+.product-form-container .product-form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.product-form-section .product-form-field {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 12px;
+}
+
+.product-form-field .product-form-input {
+  height: 38px;
+  outline: none;
+  padding: 0 10px;
+}
+
+.product-form-field .product-form-btn {
   width: 100%;
   height: 38px;
   border: none;

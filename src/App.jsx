@@ -9,6 +9,7 @@ import Users from "./pages/backend/Users";
 import Products from "./pages/backend/Products";
 import AdminLogin from "./pages/backend/AdminLogin";
 import UserForm from "./components/backend/UserForm";
+import ProductForm from "./components/backend/ProductForm";
 
 const App = () => {
   return (
@@ -21,9 +22,11 @@ const App = () => {
 
             <Route path="/users" element={<Users />} />
             <Route path="/users/add" element={<UserForm />} />
-            <Route path="/users/edit" element={<UserForm />} />
+            <Route path="/users/edit/:id" element={<UserForm />} />
 
             <Route path="/products" element={<Products />} />
+            <Route path="/products/add" element={<ProductForm />} />
+            <Route path="/products/edit" element={<ProductForm />} />
           </Route>
           <Route path="/admin-login" element={<AdminLogin />} />
         </Routes>

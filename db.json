@@ -1,0 +1,94 @@
+{
+  "userData": [
+    {
+      "name": "Saliv Maharjan",
+      "email": "salivmrj@gmail.com",
+      "address": "Panga-8, Kirtipur",
+      "number": "9866445340",
+      "role": "Admin",
+      "password": "e7cf3ef4f17c3999a94f2c6f612e8a888e5b1026878e4e19398b23bd38ec221a",
+      "id": "2576"
+    },
+    {
+      "id": "2bc7",
+      "name": "Pranish Khadge",
+      "email": "pigge@gmail.com",
+      "address": "Lagenkhel, Lalitpur",
+      "number": "9866445341",
+      "role": "User",
+      "password": "a34562f6fe6eca261e61a940d2957dcb3139e9ec9cc074f2d60ac3a69fa86f68"
+    },
+    {
+      "id": "8f3f",
+      "name": "Raman Kayastha",
+      "email": "raman@gmail.com",
+      "address": "Naya Thimi, Bhaktapur",
+      "number": "9866445342",
+      "role": "User",
+      "password": "16a765ee0cb734635066a5d97eb5f9f9f8e887f4ccda59e1c178bb9a80c46f92"
+    },
+    {
+      "id": "4b9c",
+      "name": "Sujal Shakya",
+      "email": "sujalsh@gmail.com",
+      "address": "Purano Thimi, Bhaktapur",
+      "number": "9866445343",
+      "role": "User",
+      "password": "996b64a0ee74030ab6c022ea05e48e1363acc89a16cdd7997dd661fc44e5e2a6"
+    },
+    {
+      "id": "d8f8",
+      "name": "Nikil Bhasima",
+      "email": "nikil@gmail.com",
+      "address": "Purano Thimi, Bhaktapur",
+      "number": "9866445344",
+      "role": "User",
+      "password": "be4f0b431566ccd9b5e15e7bcbc8eaa7d0aec69c408413ec7083067dcbe97295"
+    },
+    {
+      "id": "af37",
+      "name": "Bikal Rai",
+      "email": "bikal@gmail.com",
+      "address": "Bhaisipati, Lalitpur",
+      "number": "9866445345",
+      "role": "User",
+      "password": "91e4461dd1fb65e549546270153d3f8dd65feb08627abdc05297c5d40938f4a6"
+    },
+    {
+      "id": "075b",
+      "name": "Prinsha Shrestha",
+      "email": "prinsha@gmail.com",
+      "address": "Balambu, Kathmandu",
+      "number": "9866445346",
+      "role": "User",
+      "password": "09fb9ff32c5aa81bf3cd060e82f8bdfe6fa40b933c00a3b83094a4a6a9c1db24"
+    },
+    {
+      "id": "f102",
+      "name": "Ashok Timalsina",
+      "email": "ashok@gmail.com",
+      "address": "Lalitpur",
+      "number": "9866445347",
+      "role": "User",
+      "password": "def12995bb4e9bc4c0ae80f58954529da05569f4fc29c21f43278b5f60d0f7bb"
+    },
+    {
+      "id": "0b8c",
+      "name": "Darsan Baral",
+      "email": "darsan@gmail.com",
+      "address": "Lalitpur",
+      "number": "9866445348",
+      "role": "User",
+      "password": "5dddb958fbe77b5a68652cd55b03c187f1d71d5d62c11831e3e2f4149d921024"
+    },
+    {
+      "name": "Parbin Sharma",
+      "email": "parbin@gmail.com",
+      "address": "Dhobighat, Lalitpur",
+      "number": "9866445349",
+      "role": "User",
+      "password": "e18a84584c8618f12f181ae84b72166d50c259ee7c92bbf9b6211c9300e7a9ba",
+      "id": "639e"
+    }
+  ]
+}
