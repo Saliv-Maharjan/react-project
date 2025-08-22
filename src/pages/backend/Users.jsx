@@ -2,6 +2,7 @@ import { NavLink } from "react-router";
 import UserRow from "../../components/backend/UserRow";
 import { useEffect, useState } from "react";
 import { deleteUser, getAllUsers } from "../../services/backend/userData";
+import { toast } from "react-toastify";
 
 const Users = () => {
   const [users, setUser] = useState([]);
@@ -23,9 +24,10 @@ const Users = () => {
 
   const handleDelete = (id) => {
     deleteUser(id)
-      .then((response) => {
+      .then(() => {
         getAllUsers().then((response) => {
           setUser(response);
+          toast.error("User Deleted");
         });
       })
       .catch((error) => {
@@ -54,7 +56,7 @@ const Users = () => {
       <div className="table-container">
         <div className="table-headding">
           <h2>USER TABLE</h2>
-          <NavLink to={`/users/add`}>
+          <NavLink to={`/admin/users/add`}>
             <button>ADD</button>
           </NavLink>
         </div>

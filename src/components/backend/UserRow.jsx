@@ -13,7 +13,7 @@ const UserRow = (props) => {
               <td>{data.number}</td>
               <td>{data.role}</td>
               <td className="table-btns">
-                <NavLink to={`/users/edit/${data.id}`}>
+                <NavLink to={`/admin/users/edit/${data.id}`}>
                   <button className="edit-btn">EDIT</button>
                 </NavLink>
                 <button

@@ -19,7 +19,7 @@ const AdminLogin = () => {
             <input type="password" placeholder="Enter your password" />
           </div>
           <div className="admin-login-fields">
-            <NavLink to={`/dashboard`}>
+            <NavLink to={`/admin/dashboard`}>
               <input className="admin-login-btn" type="submit" value="Submit" />
             </NavLink>
           </div>

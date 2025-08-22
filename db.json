@@ -28,13 +28,13 @@
       "password": "16a765ee0cb734635066a5d97eb5f9f9f8e887f4ccda59e1c178bb9a80c46f92"
     },
     {
-      "id": "4b9c",
       "name": "Sujal Shakya",
-      "email": "sujalsh@gmail.com",
+      "email": "sujalshakya@gmail.com",
       "address": "Purano Thimi, Bhaktapur",
       "number": "9866445343",
       "role": "User",
-      "password": "996b64a0ee74030ab6c022ea05e48e1363acc89a16cdd7997dd661fc44e5e2a6"
+      "password": "996b64a0ee74030ab6c022ea05e48e1363acc89a16cdd7997dd661fc44e5e2a6",
+      "id": "4b9c"
     },
     {
       "id": "d8f8",
@@ -73,15 +73,6 @@
       "password": "def12995bb4e9bc4c0ae80f58954529da05569f4fc29c21f43278b5f60d0f7bb"
     },
     {
-      "id": "0b8c",
-      "name": "Darsan Baral",
-      "email": "darsan@gmail.com",
-      "address": "Lalitpur",
-      "number": "9866445348",
-      "role": "User",
-      "password": "5dddb958fbe77b5a68652cd55b03c187f1d71d5d62c11831e3e2f4149d921024"
-    },
-    {
       "name": "Parbin Sharma",
       "email": "parbin@gmail.com",
       "address": "Dhobighat, Lalitpur",
@@ -89,6 +80,31 @@
       "role": "User",
       "password": "e18a84584c8618f12f181ae84b72166d50c259ee7c92bbf9b6211c9300e7a9ba",
       "id": "639e"
+    },
+    {
+      "id": "ca5d",
+      "name": "Darsan Baral",
+      "email": "darsan@gmail.com",
+      "address": "Lalitpur",
+      "number": "9866445350",
+      "role": "User",
+      "password": "5dddb958fbe77b5a68652cd55b03c187f1d71d5d62c11831e3e2f4149d921024"
+    },
+    {
+      "name": "Aashish ",
+      "email": "aashish@gmail.com",
+      "address": "Naya Thimi, Bhaktapur",
+      "number": "9866445360",
+      "role": "User",
+      "password": "82d59e7cae0736aefb54091ef1fdb9348a3fbbd14774922383b1a268bc3fac83",
+      "id": "8655"
+    },
+    {
+      "id": "2b51",
+      "name": "Swayan Tamlakar",
+      "email": "swayan@gmail.com",
+      "password": "4e4c6f10008b6950a4f8b50fc349bc2dd46b47e4d6fd4089a38270c2ea2d7685",
+      "role": "User"
     }
   ]
 }

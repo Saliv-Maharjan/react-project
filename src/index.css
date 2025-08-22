@@ -238,6 +238,7 @@
   border-radius: 8px;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .table-box .table-btns .del-btn {
@@ -248,6 +249,7 @@
   border-radius: 8px;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .table-number-section {
@@ -367,4 +369,128 @@
   font-weight: 600;
   text-align: center;
   cursor: pointer;
+}
+
+/* User Side -> User Layout */
+
+.user-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+}
+
+.user-header-logo {
+  display: flex;
+  gap: 8px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.user-header-logo .main-logo {
+  color: #2a9df4;
+}
+
+.user-header-navlinks {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.user-header-navlinks a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+
+.user-header-btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-header-btns a {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.user-footer-container {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  padding: 20px;
+}
+
+/* User Side -> User Layout -> Userlogin */
+
+.user-forms-section {
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.user-forms-section h2 {
+  color: #2a9df4;
+}
+
+.user-forms-form {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.user-form-filed {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.user-form-filed input {
+  height: 42px;
+  padding: 0 8px;
+}
+
+.user-form-filed .user-forms-btn {
+  background-color: #2a9df4;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.user-pass-forget {
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.user-form-swich {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.user-form-swich:hover {
+  text-decoration: none;
+  color: #2a9df4;
+  font-size: 0.9rem;
 }

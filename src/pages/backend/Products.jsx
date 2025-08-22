@@ -6,8 +6,8 @@ const Products = () => {
     <>
       <div class="table-container">
         <div className="table-headding">
-          <h2>USER TABLE</h2>
-          <NavLink to={`/products/add`}>
+          <h2>PRODUCT TABLE</h2>
+          <NavLink to={`/admin/products/add`}>
             <button>ADD</button>
           </NavLink>
         </div>
@@ -15,26 +15,35 @@ const Products = () => {
           <table>
             <thead>
               <tr>
+                <th>IMAGE</th>
                 <th>NAME</th>
                 <th>TYPE</th>
                 <th>STOCK</th>
                 <th>PRICE</th>
-                <th>ADDED DATE</th>
                 <th>ACTION</th>
               </tr>
             </thead>
             <tbody>
               <tr>
+                <td>
+                  <img src="#" />
+                </td>
                 <td>Asian Paints</td>
                 <td>Paint</td>
                 <td>26</td>
                 <td>Rs. 1620</td>
-                <td>2025 - 08 - 15</td>
                 <td className="table-btns">
-                  <NavLink to={`/products/edit`}>
+                  <NavLink to={`/admin/products/edit`}>
                     <button className="edit-btn">EDIT</button>
                   </NavLink>
-                  <button className="del-btn" onClick={() => {toast.error("Deleted")}}>DELETE</button>
+                  <button
+                    className="del-btn"
+                    onClick={() => {
+                      toast.error("Deleted");
+                    }}
+                  >
+                    DELETE
+                  </button>
                 </td>
               </tr>
             </tbody>

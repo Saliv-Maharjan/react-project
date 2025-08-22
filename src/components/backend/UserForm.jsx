@@ -82,7 +82,7 @@ const UserForm = () => {
         // UPDATE USER
         updateUser(id, data)
           .then((response) => {
-            navigate("/users");
+            navigate("/admin/users");
           })
           .catch((error) => {
             console.log(error);
@@ -91,7 +91,7 @@ const UserForm = () => {
         // CREATE USER
         createUser(data)
           .then((response) => {
-            navigate("/users");
+            navigate("/admin/users");
           })
           .catch((error) => {
             console.log(error);

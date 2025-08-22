@@ -5,15 +5,15 @@ const Sidebar = () => {
     <>
       <div className="admin-sidebar-container">
         <ul>
-          <NavLink to={`/dashboard`}>
+          <NavLink to={`/admin/dashboard`}>
             <li>Dashboard</li>
           </NavLink>
-          <NavLink to={`/users`}>
+          <NavLink to={`/admin/users`}>
             <li>User Database</li>
           </NavLink>
-          <li>Color Request</li>
-          <NavLink to={`/products`}>
-            <li>Product Management</li>
+          <li>Color Database</li>
+          <NavLink to={`/admin/products`}>
+            <li>Product Database</li>
           </NavLink>
         </ul>
       </div>
