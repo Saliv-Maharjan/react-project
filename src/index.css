@@ -418,6 +418,16 @@
   font-weight: 600;
 }
 
+.user-header-btns .logout-btn {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .user-footer-container {
   width: 100%;
   height: 100px;
@@ -434,6 +444,101 @@
   min-height: 80vh;
   display: flex;
   padding: 20px;
+}
+
+.profile-section {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+}
+
+.profile-section .profile-sidebar {
+  width: 20%;
+  background-color: #f8f8f8;
+}
+.profile-section .profile-outlet {
+  width: 80%;
+}
+/* User Side -> User Layout -> Sidebar */
+
+.user-sidebar {
+  padding: 20px;
+}
+
+.user-sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.user-sidebar ul a {
+  text-decoration: none;
+  color: #f8f8f8;
+  background-color: #2a9df4;
+  width: 90%;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* User Side -> User Layout -> Profile Page */
+
+.profile-page-section {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-page-section h2 {
+  color: #2a9df4;
+}
+
+.profile-context {
+  display: flex;
+}
+
+.profile-form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field-group {
+  display: flex;
+  gap: 12px;
+}
+
+.profile-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-fields input {
+  padding: 0px 8px;
+  width: 80%;
+  height: 42px;
+  outline: none;
+  cursor: default;
+  /* border: none; */
+}
+
+.profile-image {
+  width: 30%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 120px;
 }
 
 /* User Side -> User Layout -> Userlogin */

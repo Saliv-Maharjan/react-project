@@ -13,6 +13,8 @@ import ProductForm from "./components/backend/ProductForm";
 import UserLayout from "./components/frontend/UserLayout";
 import UserLogin from "./pages/frontend/UserLogin";
 import UserRegister from "./pages/frontend/UserRegister";
+import UserProfile from "./components/frontend/UserProfile";
+import ProfilePage from "./pages/frontend/ProfilePage";
 
 const App = () => {
   return (
@@ -22,6 +24,10 @@ const App = () => {
           <Route path="/" element={<UserLayout />}>
             <Route path="/login" element={<UserLogin />} />
             <Route path="/register" element={<UserRegister />} />
+          </Route>
+
+          <Route path="/profile/:id" element={<UserProfile />}>
+            <Route index element={<ProfilePage />} />
           </Route>
 
           <Route path="/admin" element={<AdminLayout />}>

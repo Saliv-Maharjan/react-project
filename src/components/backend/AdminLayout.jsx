@@ -1,9 +1,18 @@
-import { Outlet } from "react-router";
+import { Outlet, useNavigate } from "react-router";
 import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import { useEffect } from "react";
 
 const AdminLayout = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const role = localStorage.getItem("USER_ROLE");
+    if (role !== "Admin") {
+      navigate("/admin-login");
+    }
+  }, []);
+
   return (
     <>
       <div className="admin-header">

@@ -12,14 +12,13 @@ export const doLogin = async (email, password) => {
   if (response.data.length > 0) {
     const user = response.data[0];
 
-    if (user.role === "User") {
+    if (user.role === "Admin") {
       localStorage.setItem("AUTH_TOKEN", AUTH_TOKEN);
       localStorage.setItem("USER_EMAIL", user.email);
       localStorage.setItem("USER_ROLE", user.role);
-      localStorage.setItem("USER_ID", user.id);
       return { success: true };
     } else {
-      return { success: false, reason: "not-user" };
+      return { success: false, reason: "not-admin" };
     }
   } else {
     return { success: false, reason: "invalid" };
