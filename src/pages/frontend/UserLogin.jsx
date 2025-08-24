@@ -1,13 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router";
 import { toast } from "react-toastify";
 import { doLogin } from "../../services/frontend/userAuth";
 
 const UserLogin = () => {
   const navigate = useNavigate();
+  const [isLoggedIn, setIsLoggedIn] = useState("");
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  useEffect(() => {
+    console.log(isLoggedIn);
+  }, [isLoggedIn]);
 
   const handleEmailChange = (e) => {
     const inputEmail = e.target.value;
@@ -38,6 +43,7 @@ const UserLogin = () => {
     if (loginStatus.success) {
       toast.success(`Login successful, welcome ${email}!`);
       navigate("/");
+      setIsLoggedIn(localStorage.getItem("AUTH_TOKEN"));
     } else {
       if (loginStatus.reason === "not-user") {
         toast.warn(`You are not User!`);

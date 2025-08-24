@@ -31,6 +31,8 @@ const ProfilePage = () => {
   const handleLogout = () => {
     localStorage.removeItem("AUTH_TOKEN");
     localStorage.removeItem("USER_EMAIL");
+    localStorage.removeItem("USER_ROLE");
+    localStorage.removeItem("USER_ID");
     navigate("/login");
   };
   return (

@@ -15,6 +15,8 @@ import UserLogin from "./pages/frontend/UserLogin";
 import UserRegister from "./pages/frontend/UserRegister";
 import UserProfile from "./components/frontend/UserProfile";
 import ProfilePage from "./pages/frontend/ProfilePage";
+import Home from "./pages/frontend/Home";
+import ContactForm from "./components/frontend/ContactForm";
 
 const App = () => {
   return (
@@ -22,6 +24,9 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<UserLayout />}>
+            <Route index element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/contact" element={<ContactForm />} />
             <Route path="/login" element={<UserLogin />} />
             <Route path="/register" element={<UserRegister />} />
           </Route>

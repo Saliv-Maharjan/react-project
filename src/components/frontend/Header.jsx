@@ -24,7 +24,7 @@ const Header = () => {
           <NavLink>
             <li className="user-header-navitems">COLORS</li>
           </NavLink>
-          <NavLink>
+          <NavLink to={`/contact`}>
             <li className="user-header-navitems">CONTACT US</li>
           </NavLink>
         </ul>

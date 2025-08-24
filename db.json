@@ -98,13 +98,6 @@
       "role": "User",
       "password": "82d59e7cae0736aefb54091ef1fdb9348a3fbbd14774922383b1a268bc3fac83",
       "id": "8655"
-    },
-    {
-      "id": "2b51",
-      "name": "Swayan Tamlakar",
-      "email": "swayan@gmail.com",
-      "password": "4e4c6f10008b6950a4f8b50fc349bc2dd46b47e4d6fd4089a38270c2ea2d7685",
-      "role": "User"
     }
   ]
 }
